@@ -5,6 +5,7 @@ body {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    color:white;
 }
 
 /*font-family: 'Tangerine', serif;
@@ -34,14 +35,20 @@ hr {
     border-color: #999999;
 }
 
-.brand,/*marca*/
-.address-bar {
+.titulo,/*marca*/
+.autor {
   /*  display: none;*/
     text-align: center;
 }
 
-.brand > h1 {
-    font-size: 8em;
+.titulo > a {
+    color :white;
+    text-decoration: none;
+}
+
+
+.titulo > a > h1 {
+    font-size: 6em;
     text-shadow: 4px 4px 4px black;
     color: white;
     font-style: italic;
@@ -49,9 +56,100 @@ hr {
     /*font-weight: 700;*/
 }
 
-.address-bar > h2 {
+.titulo > .autor > h2 {
     font-size: 3em;
-    text-shadow: 4px 4px 4px black;
+    text-shadow: 1px 3px 2px black;
     color: white;
     
 }
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.navbar-nav {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+ .navbar-default > .navbar-nav > li > a :hover{
+        color: #EB9933;
+    }
+
+@media screen and (min-width:768px) {
+    .brand {
+        display: inherit;
+        margin: 0;
+        padding: 30px 0 10px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 5em;
+        font-weight: 700;
+        line-height: normal;
+        color: #fff;
+    }
+
+    .top-divider {
+        margin-top: 0;
+    }
+
+    .img-left {
+        float: left;
+        margin-right: 25px;
+    }
+
+    .address-bar {
+        display: inherit;
+        margin: 0;
+        padding: 0 0 40px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        text-transform: uppercase;
+        font-size: 1.25em;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: #fff;
+    }
+
+    .navbar {
+        border-radius: 0;
+    }
+
+    .navbar-header {
+        display: none;
+    }
+
+    .navbar {
+        min-height: 0;
+    }
+
+    .navbar-default {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    background: #fff;
+    background: rgba(255, 255, 255, 0.15);
+    }
+
+    .navbar-default > .navbar-nav > li > a :hover{
+        color: #EB9933;
+    }
+
+    .nav>li>a {
+        padding: 35px;
+    }
+
+    .navbar-nav>li>a {
+        line-height: normal;
+    }
+
+    .navbar-nav {
+        display: table;
+        float: none;
+        margin: 0 auto;
+        table-layout: fixed;
+        font-size: 1.25em;
+    }
