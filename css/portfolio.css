@@ -1,1 +1,57 @@
 /* Inserta tu código aqui */
+body {
+    background: url('../img/bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/*font-family: 'Tangerine', serif;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa;*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /*text-transform: uppercase;*/
+    font-family: "Tangerine","Helvetica Neue",Helvetica,Arial,sans-serif;
+    /*font-weight: 700;*/
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 1.25em;
+    line-height: 1.6;
+    color: #000;
+}
+
+hr {
+    max-width: 400px;
+    border-color: #999999;
+}
+
+.brand,/*marca*/
+.address-bar {
+  /*  display: none;*/
+    text-align: center;
+}
+
+.brand > h1 {
+    font-size: 8em;
+    text-shadow: 4px 4px 4px black;
+    color: white;
+    font-style: italic;
+
+    /*font-weight: 700;*/
+}
+
+.address-bar > h2 {
+    font-size: 3em;
+    text-shadow: 4px 4px 4px black;
+    color: white;
+    
+}
