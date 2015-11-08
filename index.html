@@ -1,177 +1,168 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <title>portfolio front-end</title>
-
-  <link href="css/bootstrap.css" rel="stylesheet">
-  <link href="css/portfolio.css" rel="stylesheet">
-  
-  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+	<meta charset="UTF-8">
+	<title>efecto scroll en menu</title>
+  <link rel="stylesheet" type="text/css" href="style/bootstrap.min.css">
+	<link rel="stylesheet" href="style/index_style.css">
+	<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
   <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
-    
-    <link href="css/hover.css" rel="stylesheetmedios" ="all">
-    <link href="css/hover.css" rel="stylesheet">
-   <!--  si quiero editarlo con mas gruesa usar bold 700 italic  -->
-    <!-- <link href='https://fonts.googleapis.com/css?family=Andika' rel='stylesheet' type='text/css'> -->
-  <!-- <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Amatic+SC:700"> -->
-  <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-
-  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-  <![endif]-->
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src='js/script.js'></script>
 </head>
 
+
 <body>
- 
-    <!-- Navigation -->
-  
-<!-- box1 -->
-<div id="box1" class="home">
-   <!--<div class="overlay-banner3"></div>--> 
-  <div class="text-vcenter">
-   
-<svg viewBox="-90 70 600 50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
- <!-- width="100%" height="100%"  -->
- <path id="path">
-    <animate attributeName="d" from="m0,110 h0" to="m0,110 h1100" dur="6.8s" begin="0s" repeatCount="indefinite"/>
-  </path>
-  <text font-size="40" font-family="Montserrat" fill='hsla(36, 95%, 85%, 1)'>
-    <textPath xlink:href="#path">Julia Maria Guzman Joya
-    </textPath>
-  </text>
-</svg>
-<div id="dos">
-    <a href="#sobre-mi">miMundo</a>
-</div>
- </div>
-</div>
-<!-- /box1 --> 
+	<header>
+		<nav>
+			<ul>
+				<a href='#sobre-mi'><li>HOLA</li></a>
+				<a href='#habilidades'><li>HABILIDADES</li></a>
+			</ul>	 
+		<img id='logo' src='pictures/Untitled.png'>
+			<ul>
+				<a href='#mis-proyectos'><li>PROYECTOS</li></a>
+				<a href='#contactame'><li>CONTACTAME</li></a>
+			</ul>
+		</nav>
+	</header>
 
-<!-- navbar -->
-<nav class="navbar navbar-default" role="navigation">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-      <a class="navbar-brand" href="#"></a> </div>
-    <div class="collapse navbar-collapse" id="navbar-collapse-main">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="javascript:void(0);">SOBRE MI</a></li>
-        <li><a href="javascript:void(0);">MI SISTEMA</a></li>
-        <li><a href="javascript:void(0);">PORTAFOLIO</a></li>
-        <li><a href="javascript:void(0);">CONTACTAME</a></li>
-        <li><a href="javascript:void(0);">Menu Item #5</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-<!-- /navbar --> 
+	<section id='banner' class='overlay'>
+		<div class='overlay'></div>
+		
+	</section>
 
-<!-- box2 -->
+	<section id='body'>
+
 <section id="sobre-mi" class="pad-section">
-  <div class="container">
-    
-      
+  <div class="container wrapper">
+  	
       <div class="col-sm-12 text-center">
-        <h2><b>SOBRE MI</b></h2>
-      <img class="portfolio-julia" src="img/portfolio-julia.jpg">
+        <h1>HOLA!</h1>
+
+      <img class="img-portafolio" src="pictures/portfolio-julia.jpg">
+      <h4>mi nombre es:</h4>
       <h3>JULIA MARIA GUZMAN JOYA</h3>
       
-      <h3><b> Podre cambiar el camino pero jamas mi meta codeando soy feliz</b></h3>
+      <h3>brindando soluciones y aprendiendo en el camino para ser una full star</h3>
       
-      <p>hola mi nombre es julia maria me apasiona diseñar soluciones divertidas y innovadoras alcanzar objetivos mediante creatividad y talento . Mi trabajo se basa principalmente en llevar experiencias unicas he inpactactes. es fantastico que tan solo con codigos podamos crear magia codificida...</p>
+      <p>hola mi nombre es julia maria me apasiona diseñar soluciones divertidas y innovadoras alcanzar objetivos mediante creatividad y talento . Mi trabajo se basa principalmente en llevar experiencias unicas he inpactactes codificando "MAGIA"...</p>
       </div>
     
+   <!-- <div class="text-vcenter"> -->
+   
+
+<!--  </div> --> 
+     
   </div>
 </section>
-<!-- /box2 -->
-<hr>
-<section class="module content " id="primera-seccion">
-    <div class="container bordeado como-lo-hago">
+ 
+
+ <div class="mensajes pictures-mensaje1">
+ 	<div class="container">
+ 			<div class="col-lg-9"><h2>Mis experimentos con JAVA-SCRIPT y JQUERY></h2>
+ 				<h3>estamos disenados para aprender < todo > </h3>
+ 			</div>
+ 			<div class="col-lg-3">
+ 				
+ 				<a href=""><i class="fa-pulse fa fa-codepen fa-5x"></i></a>
+ 				<h4>MI CODEPEN</h4>
+ 				
+ 			</div>
+ 	</div>
+ </div>
+
+
+<section id="habilidades" class="module content">
+    <div class="container wrapper bordeado como-lo-hago">
       <div >
-        <h2 class="titulo-centrado"><b>COMO LO HAGO</b></h2>
+        <h2 class="titulo-centrado">HABILIDADES</h2>
       </div>
+
+
       <div class="row">
-          <div class="col-xs-6 col-sm-3 text-center"><img src="img/png/pienso.png">
-            <h3 class="creativo">Imagino</h3>
+          <div class="col-xs-6 col-sm-3 text-center"><img src="pictures/png/logotype193.png">
+            <h3 class="creativo">HTML5</h3>
           </div>
-          <div class="col-xs-6 col-sm-3 text-center"><img src="img/png/codeo.png">
-            <h3 class="creativo">Diseño</h3>
+          <div class="col-xs-6 col-sm-3 text-center"><img src="pictures/png/css10.png">
+            <h3 class="creativo">CSS3</h3>
           </div>
-          <div class="col-xs-6 col-sm-3 text-center"><img src="img/png/cerebro.png">
-            <h3 class="creativo">Desarrollo</h3>
+          <div class="col-xs-6 col-sm-3 text-center"><img src="pictures/png/responsive.png">
+            <h3 class="creativo">RESPONSIVE</h3>
           </div>
-          <div class="col-xs-6 col-sm-3 text-center"><img src="img/png/disfruto.png">
-            <h3 class="creativo">Disfruto</h3>
+          <div class="col-xs-6 col-sm-3 text-center"><img src="pictures/png/web-development.png">
+            <h3 class="creativo">GIT HUB</h3>
           </div>
       </div>
     </div>
-</section>
-<hr>
-<!-- box3 -->
-<div id="box3" class="">
+</section >
 
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12 text-rigth">
-        lo hago lo logro MIS TRABAJOS
-        
-        
 
+<div class="mensajes pictures-mensaje2">
+	<div class="container">
+<h2>IMAGINACION EN ACCION ES LLEVAR TU IDEA A LAS ESTRELLAS</h2>
+	</div>
+</div>
+
+<section id="mis-proyectos" class="proyectos text-center"> 
+<div class="container wrapper">
+	<h2>PROYECTOS</h2>
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="pictures/proyecto1.jpg" alt="...">
+      <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p>...</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a><a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4">s
+    <div class="thumbnail">
+      <img src="pictures/proyecto2.png" alt="...">
+      <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p>...</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a><a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="pictures/proyecto3.png" alt="...">
+      <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p>...</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a><a href="#" class="btn btn-default" role="button">Button</a></p>
       </div>
     </div>
   </div>
 </div>
-<!-- /box3 -->
+</section>
 
- <!-- width="100%" height="100%" -->
+<section id="contactame" class="mensajes pictures-mensaje3">
+<div class="container">
+<h2 class="text-center">CONTACTAME</h2>
+	
+	<div class="col-lg-6 text-right"><img src="pictures/face.png"></div>
+	<div class="col-lg-6"><img  src="pictures/git.png"></div>
 
-<!-- footer -->
+</div>
+</section>
+
+
+
 <footer>
-  
-  <div class="container">
-    <p class="text-right">
-julia maria guzman joya
-tel:.940690052
-maju.guzmanjoya@gmail.com
-    </p>
-  </div>
+<div class="container">
+  <div class="col-lg-2"><img src="pictures/energy24.png" width="100%"></div>
+  <div class="col-lg-10 text-right">
+  	<p>contactos:.juliamariaguzmanjoya@hotmail.com</p>
+  	<p>maju.guzmanjoya@gmail.com</p>
+  	<p>celular:.940 690 052</p>
+  </div> 
+</div>
 </footer>
-<!-- /footer --> 
-
-<!-- js --> 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
-<script src="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> 
-<script src="js/main.js"></script>
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-36251023-1']);
-  _gaq.push(['_setDomainName', 'jqueryscript.net']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>  
-
-  <!-- I3nserta tu código aqui -->
-  <script src="js/jquery.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/freelancer.js"></script>
+	</section>
 </body>
-
 </html>
